@@ -1,0 +1,17 @@
+dependencies: []
+
+galaxy_info:
+  role_name: mas
+  author: dudecalledbro
+  description: Install Apps from Mac App Store.
+  license: "license (MIT)"
+  min_ansible_version: "2.15"
+  platforms:
+  - name: MacOSX
+    versions:
+    - all
+
+  galaxy_tags:
+  - appstore
+  - macos
+  - mas

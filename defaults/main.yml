@@ -1,0 +1,5 @@
+# define if 'mas' should be installed (options: true|false)
+mas_packages: true
+
+# define apps which should be installed
+mas_apps: []

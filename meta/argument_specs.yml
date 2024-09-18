@@ -1,0 +1,21 @@
+argument_specs:
+  main:
+    short_description: mas
+    description: "Install Apps from Apple Store."
+    author: dudecalledbro
+    options:
+      mas_packages:
+        type: bool
+        description: "Define if 'mas' should be installed."
+      mas_apps:
+        type: list
+        elements: dict
+        options:
+          name:
+            type: str
+            required: false
+            description: "Name of the app."
+          id:
+            type: int
+            required: true
+            description: "Identifier of the app."
